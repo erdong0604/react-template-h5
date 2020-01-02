@@ -1,0 +1,35 @@
+
+@import './../../assets/style/common.less';
+
+.tabBarItemContainer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: @tabBarHeight;
+    border-top: 1px solid #ddd;
+}
+.tabBarItemList{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.tabBarItem{
+    display: flex;
+    flex: 1;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    > p{
+        color: #000;
+        font-size: .26rem;
+        align-items: center;
+    }
+    .tabBarItemTextSelect{
+        color: blue;
+        font-weight: bold;
+    }
+}
+.tabBarItemSelect{
+    border-top: 1px solid blue;
+}
